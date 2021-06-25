@@ -1,14 +1,6 @@
 package main.kotlin.DigiOneBank
 
-class Pessoa {
-    var nome:String = "João"  // Membros da Classe
-    var cpf:String = "123.123.123.11"
-
-}
-
-fun main() {
-    val joao = Pessoa()  // Instanciando a Classe
-
-    println(joao.nome)
-    println(joao.cpf)
-}
+abstract class Pessoa(  // Classe com construtor primario
+     val nome: String,  // open permite que extenda e herde de outra classe
+     val cpf: String    // Abstract não instancia
+)
