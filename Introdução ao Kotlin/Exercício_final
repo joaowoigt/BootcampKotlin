@@ -1,0 +1,42 @@
+// Constantes para a operação
+const val soma = 1
+const val sub = 2
+const val mult = 3
+const val div = 4
+const val resto = 5
+const val potencia = 6
+const val porcentagem = 7
+
+
+// Função principal
+fun main() {
+	val x:Float? = 3.5f  // Inserir qualquer valor Float
+    val y:Float? = 4.5f  // Inserir qualquer valor Float
+    val operacao:Int = porcentagem  // Inserir qualqual nome de operação das constantes
+    
+    // Funções de cada operação
+    when {
+        x == null || y == null -> print("Um dos valores é nulo")
+        operacao == 1 -> println(x.plus(y))
+        operacao == 2 -> println(x.minus(y))
+        operacao == 3 -> println(x.times(y))
+        operacao == 4 -> println(x.div(y))
+        operacao == 5 -> println(x.mod(y))
+        operacao == 6 -> println(potencia(x,y))
+        operacao == 7 -> println(porcentagem(x,y))
+        
+             
+}  
+}
+ // Calculca potencia na base X elevado a Y
+fun potencia(x:Float, y:Float):Float {
+     var base = 1
+     	for (i in 0..y.toInt()){
+             base *= x.toInt()   
+         }
+        return base.toFloat()
+ }
+// Calcula a porcentagem Y% em X
+fun porcentagem(x:Float, y:Float):Float {
+    return x * (y/100)
+}
