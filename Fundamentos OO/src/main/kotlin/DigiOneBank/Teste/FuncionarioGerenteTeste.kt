@@ -6,7 +6,9 @@ import main.kotlin.DigiOneBank.Gerente
 
 
 fun main() {
-    val milleny = Gerente("Milleny","123.123.123-12", 5000.0)
+    val milleny = Gerente("Milleny","123.123.123-12", 5000.0, "123")
     ImprimeRelatorioFuncionario.imprime(milleny)
+
+    AutenticacaoTeste().autentica(milleny)
 
 }
