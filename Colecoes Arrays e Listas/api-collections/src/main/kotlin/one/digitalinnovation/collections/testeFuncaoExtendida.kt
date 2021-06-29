@@ -1,8 +1,14 @@
 package one.digitalinnovation.collections
 
 fun main() {
-    val pair = Pair("Joao", 1000.0)
+    val salarios = arrayOf(
+        "2000".toBigDecimal(),
+        "1500".toBigDecimal(),
+        "4000".toBigDecimal()
+    )
+    println(salarios.somatoria())
 
-    val map = mapOf(pair)
-    val salario = map["Joao"]
+    println("------------------")
+
+    println(salarios.media())
 }
