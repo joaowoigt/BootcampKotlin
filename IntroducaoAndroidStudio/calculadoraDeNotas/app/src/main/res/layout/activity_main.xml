@@ -91,6 +91,10 @@
             android:layout_height="137dp"
             android:orientation="vertical">
 
+            <TextureView
+                android:id="@+id/textureView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
 
@@ -123,6 +127,8 @@
                 android:textAppearance="?attr/textAppearanceBody2"
                 android:textColor="?android:attr/textColorSecondary"
                 android:textSize="14sp" />
+
+
 
         </LinearLayout>
 
@@ -176,6 +182,22 @@
         android:text="@string/assinatura"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/condicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/resultado"
+        app:layout_constraintTop_toBottomOf="@+id/calcular" />
+
+<!--    <androidx.constraintlayout.widget.Group-->
+<!--        android:id="@+id/visibilidade_calcular"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="invisible"-->
+<!--        app:constraint_referenced_ids="calcular" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
