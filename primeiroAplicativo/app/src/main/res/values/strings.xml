@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">IMC Check</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="imc_check">IMC Check</string>
+    <string name="instrucao">Instruções: Insira seu peso em Kg e altura em Metros</string>
+    <string name="saiba_mais">Saiba mais</string>
+    <string name="magreza">O seu Índice de Massa Corpórea é de magreza!</string>
+    <string name="normal">O seu Índice de Massa Corpórea é normal!</string>
+    <string name="sobrepeso">O seu Índice de Massa Corpórea é de sobrepeso!</string>
+    <string name="obesidade">O seu Índice de Massa Corpórea é de obesidade!</string>
+    <string name="problema_normal">Parabens! Seu índice de massa corpórea esta em niveis normais,
+    diminuindo o risco de doenças como síndrome metabólica, hipertensão arterial, diabetes.</string>
+    <string name="problema_sobrepeso">O sobrepeso pode levar a casos leves de síndrome metabólica,
+        hipertensão arterial, diabetes. Caso não for acompanhado a evolução, pode levar a obesidade,
+    agravando todos os sintomas anteriores.</string>
+    <string name="problema_magreza">A magreza pode levar a desnutrição, com potencial de causar anemia,
+        desidratação, pressão baixa, desmaios, fraqueza, cansaço. É recomendado uma dieta balanceada
+    , evitar jejum e fazer atividade física.</string>
+    <string name="problema_obesidade"> obesidade pode levar a síndrome metabólica, hipertensão
+        arterial, diabetes, infarto agudo do miocárdio, arterosclerose, dislipidemia.É recomendado
+        dieta, exercícios físicos, acompanhamento medico.</string>
+    <string name="saiba_mais_conteudo">O índice de massa corporal (IMC) é uma medida internacional usada para
+        calcular se uma pessoa está no peso ideal. Desenvolvido pelo polímata Lambert Quételet no
+        fim do século XIX, trata-se de um método fácil e rápido para a avaliação do nível de gordura
+        de cada pessoa, sendo, por isso, um preditor internacional de obesidade adotado pela Organização
+        Mundial da Saúde (OMS).</string>
+    <string name="saiba_mais_conteudo2">Como calcular
+O IMC é determinado pela divisão da massa do indivíduo pelo quadrado de sua altura, em que a massa 
+        está em quilogramas e a altura em metros.
+</string>
+    <string name="voltar_a_pagina_inicial">Voltar a pagina inicial</string>
+
+</resources>

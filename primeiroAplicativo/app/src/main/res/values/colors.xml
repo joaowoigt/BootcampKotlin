@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaria">#676b90</color>
+    <color name="secundaria">#3c3057</color>
+    <color name="complemntaria">#b5ca86</color>
+    <color name="black_600">#706c69</color>
+    <color name="triadic_1">#707069</color>
+    <color name="triadic_2">#697069</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

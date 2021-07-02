@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".obesidadePage"
+    android:background="@color/secundaria">
+
+
+    <TextView
+        android:id="@+id/tv_anuncio_IMC4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/obesidade"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/iv_pessoa_obesidade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_pessoa_obesidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/obesidade" />
+
+    <ImageView
+        android:id="@+id/iv_circuclo_botao_volta4"
+        android:layout_width="220dp"
+        android:layout_height="185dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_pessoa_obesidade"
+        app:srcCompat="@drawable/ic_fiber_manual_record_white_24dp" />
+
+    <ImageButton
+        android:id="@+id/ib_volta_obesidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/complemntaria"
+        app:layout_constraintTop_toBottomOf="@+id/iv_pessoa_obesidade"
+        app:srcCompat="@drawable/ic_first_page_white_24dp" />
+
+    <TextView
+        android:id="@+id/tv_problema_obesidade"
+        android:layout_width="194dp"
+        android:layout_height="385dp"
+        android:text="@string/problema_obesidade"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_pessoa_obesidade"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="imc_check">IMC Check</string>
+    <string name="instrucao">Instruções: Insira seu peso em Kg e altura em Metros</string>
+    <string name="magreza">O seu Indice de Massa Corpórea é de magreza</string>
+</resources>
